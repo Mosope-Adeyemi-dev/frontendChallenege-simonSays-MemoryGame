@@ -12,7 +12,7 @@ function instructions(){
 
 
 function nextSequence(){
-    
+    $("input").val("");
     var randomNumber = Math.floor((Math.random()*4));
     randomChosenColor = buttonColors[randomNumber];
         gamePattern.push(randomChosenColor);  
